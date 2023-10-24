@@ -6,9 +6,9 @@ public class UserCreationDto
     
     public string Password { get;}
 
-    public UserCreationDto(string userName, string password)
+    public UserCreationDto(string username, string password)
     {
-        UserName = userName;
+        UserName = username;
         Password = password;
     }
 }

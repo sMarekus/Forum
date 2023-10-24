@@ -13,42 +13,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3701879-35b1-4bfe-9ca8-57625e3382e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/App.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/BlazorWASM.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/Pages/Counter.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/Pages/FetchData.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/Pages/Index.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/Pages/RegisterUser.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/Shared/MainLayout.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/Shared/MainLayout.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/Shared/NavMenu.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/Shared/NavMenu.razor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/Shared/SurveyPrompt.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/_Imports.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/wwwroot/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/wwwroot/css/bootstrap/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/wwwroot/css/bootstrap/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/wwwroot/css/open-iconic/FONT-LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/wwwroot/css/open-iconic/ICON-LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/wwwroot/css/open-iconic/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/wwwroot/css/open-iconic/font/fonts/open-iconic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/wwwroot/css/open-iconic/font/fonts/open-iconic.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/wwwroot/css/open-iconic/font/fonts/open-iconic.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/wwwroot/css/open-iconic/font/fonts/open-iconic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/wwwroot/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/wwwroot/icon-192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/wwwroot/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/wwwroot/sample-data/weather.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HttpClients/ClientInterfaces/IUserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HttpClients/HttpClients.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HttpClients/Implementations/UserHttpClient.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Forum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Forum/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forum.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Forum.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/DaoInterfaces/IUserDao.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/DaoInterfaces/IUserDao.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorWASM/Pages/RegisterUser.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWASM/Pages/RegisterUser.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/DTOs/UserCreationDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/DTOs/UserCreationDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/data.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +167,12 @@
       <workItem from="1697989788431" duration="895000" />
       <workItem from="1697990706036" duration="987000" />
       <workItem from="1698068477982" duration="3361000" />
-      <workItem from="1698072037994" duration="2217000" />
+      <workItem from="1698072037994" duration="2466000" />
+      <workItem from="1698074658212" duration="2183000" />
+      <workItem from="1698131690077" duration="2002000" />
+      <workItem from="1698142069624" duration="357000" />
+      <workItem from="1698142451319" duration="168000" />
+      <workItem from="1698142667518" duration="344000" />
     </task>
     <servers />
   </component>
