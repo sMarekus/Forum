@@ -36,14 +36,14 @@ public class UserLogic : IUserLogic
 
     private static void ValidateData(UserCreationDto userToCreate)
     {
-        string userName = userToCreate.UserName;
+        string username = userToCreate.UserName;
         string password = userToCreate.Password;
 
-        if (userName.Length <= 1)
+        if (username.Length <= 1)
         {
             throw new Exception("Username must contain at least 1 character! ");
         }
-        else if (userName.Length >= 15)
+        else if (username.Length >= 15)
         {
             throw new Exception("Username must be less then 15 characters! ");
         }
