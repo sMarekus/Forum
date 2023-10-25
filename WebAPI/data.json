@@ -16,5 +16,16 @@
       "Password": "pepepe"
     }
   ],
-  "Posts": []
+  "Posts": [
+    {
+      "id": 1,
+      "owner": {
+        "Id": 1,
+        "Username": "matej",
+        "Password": "heslo"
+      },
+      "title": "Test",
+      "description": "funguje to?"
+    }
+  ]
 }

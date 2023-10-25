@@ -57,4 +57,9 @@ public class UserLogic : IUserLogic
             throw new Exception("Password must be less then 15 characters! ");
         }
     }
+
+    public Task<IEnumerable<User>> GetAsync(SearchUserParametersDto searchParameters)
+    {
+        return userDao.GetAsync(searchParameters);
+    }
 }
