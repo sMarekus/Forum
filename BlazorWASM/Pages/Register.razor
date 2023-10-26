@@ -35,6 +35,7 @@
         {
             await userService.Create(new UserCreationDto(username, password));
             username = "";
+            password = "";
             resultMsg = "Successful registration";
             color = "green";
         }
