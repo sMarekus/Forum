@@ -21,6 +21,12 @@ builder.Services.AddScoped<IPostLogic, PostLogic>();
 
 var app = builder.Build();
 
+app.UseCors(x => x
+    .AllowAnyMethod()
+    .AllowAnyHeader()
+    .SetIsOriginAllowed(origin => true) // allow any origin
+    .AllowCredentials());
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
@@ -28,13 +34,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors(x => x
-    .AllowAnyMethod()
-    .AllowAnyHeader()
-    .SetIsOriginAllowed(origin => true) // allow any origin
-    .AllowCredentials());
-
 app.UseHttpsRedirection();
+
+app.UseHsts();
 
 app.UseAuthorization();
 
