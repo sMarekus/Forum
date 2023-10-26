@@ -18,6 +18,7 @@ builder.Services.AddScoped(
         }
 );
 builder.Services.AddScoped<IUserService, UserHttpClient>();
+builder.Services.AddScoped<IPostService, PostHttpClient>();
 
 var app = builder.Build();
 
