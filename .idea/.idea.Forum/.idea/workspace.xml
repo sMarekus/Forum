@@ -13,31 +13,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3701879-35b1-4bfe-9ca8-57625e3382e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/Data/WeatherForecast.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/Data/WeatherForecastService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/Pages/Error.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/Pages/Error.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/Pages/Register.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/Pages/_Host.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Forum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Forum/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorWASM/BlazorWASM.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWASM/BlazorWASM.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorWASM/Pages/FetchData.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWASM/Pages/FetchData.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorWASM/Pages/RegisterUser.razor" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorWASM/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWASM/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorWASM/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWASM/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorWASM/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWASM/Shared/MainLayout.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorWASM/Shared/MainLayout.razor.css" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWASM/Shared/MainLayout.razor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorWASM/Shared/SurveyPrompt.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWASM/Shared/SurveyPrompt.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorWASM/_Imports.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWASM/_Imports.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorWASM/wwwroot/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWASM/wwwroot/css/site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorWASM/wwwroot/icon-192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorWASM/wwwroot/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorWASM/wwwroot/sample-data/weather.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Forum.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Forum.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/WebAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/WebAPI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorWASM/Pages/Register.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWASM/Pages/Register.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorWASM/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWASM/Shared/NavMenu.razor" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,6 +175,7 @@
       <workItem from="1698161006217" duration="3263000" />
       <workItem from="1698269040921" duration="2650000" />
       <workItem from="1698308880104" duration="45000" />
+      <workItem from="1698311328968" duration="467000" />
     </task>
     <servers />
   </component>

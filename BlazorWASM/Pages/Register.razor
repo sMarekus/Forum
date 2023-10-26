@@ -4,7 +4,7 @@
 @inject IUserService userService;
 
 <div class="card">
-    <h3>Create User</h3>
+    <h3>Register</h3>
     <div class="form-group field">
         <label>Username:</label>
         <input type="text" @bind="username" @bind:event="oninput"/>
@@ -35,7 +35,7 @@
         {
             await userService.Create(new UserCreationDto(username, password));
             username = "";
-            resultMsg = "User successfully created";
+            resultMsg = "Successful registration";
             color = "green";
         }
         catch (Exception e)
