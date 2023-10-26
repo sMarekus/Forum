@@ -46,4 +46,9 @@ public class PostLogic : IPostLogic
             throw new Exception("Description cannot be empty! ");
         }
     }
+    
+    public Task<Post?> GetByIdAsync(int id)
+    {
+        return postDao.GetByIdAsync(id);
+    }
 }

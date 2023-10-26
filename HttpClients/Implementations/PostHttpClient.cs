@@ -47,4 +47,23 @@ public class PostHttpClient : IPostService
         })!;
         return posts;
     }
+    
+    public async Task<Post> GetPostById(int id)
+    {
+        string uri = $"/posts/{id}";
+        HttpResponseMessage response = await client.GetAsync(uri);
+        string result = await response.Content.ReadAsStringAsync();
+
+        if (response.IsSuccessStatusCode)
+        {
+            return JsonSerializer.Deserialize<Post>(result, new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            })!;
+        }
+        else
+        {
+            throw new Exception(result);
+        }
+    }
 }

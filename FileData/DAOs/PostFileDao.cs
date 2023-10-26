@@ -52,4 +52,10 @@ public class PostFileDao : IPostDao
 
         return Task.FromResult(result);
     }
+    
+    public Task<Post?> GetByIdAsync(int id)
+    {
+        Post? existing = context.Posts.FirstOrDefault(u => u.id == id);
+        return Task.FromResult(existing);
+    }
 }

@@ -46,4 +46,23 @@ public class PostsController : ControllerBase
             return StatusCode(500, e.Message);
         }
     }
+    
+    [HttpGet("{id}")]
+    public async Task<ActionResult<Post>> GetPostAsync(int id)
+    {
+        try
+        {
+            var post = await postLogic.GetByIdAsync(id);
+            if (post == null)
+            {
+                return NotFound(); // Return 404 Not Found if the post is not found.
+            }
+            return Ok(post);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return StatusCode(500, e.Message);
+        }
+    }
 }
