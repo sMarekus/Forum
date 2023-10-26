@@ -12,18 +12,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3701879-35b1-4bfe-9ca8-57625e3382e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/Pages/PostDetails.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Forum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Forum/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/DaoInterfaces/IPostDao.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/DaoInterfaces/IPostDao.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Logic/PostLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Logic/PostLogic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/LogicInterfaces/IPostLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/LogicInterfaces/IPostLogic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorWASM/Pages/ViewPosts.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWASM/Pages/ViewPosts.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileData/DAOs/PostFileDao.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FileData/DAOs/PostFileDao.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HttpClients/ClientInterfaces/IPostService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClients/ClientInterfaces/IPostService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HttpClients/Implementations/PostHttpClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClients/Implementations/PostHttpClient.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/Controllers/PostsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Controllers/PostsController.cs" afterDir="false" />
-    </list>
+    <list default="true" id="a3701879-35b1-4bfe-9ca8-57625e3382e0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -193,7 +182,7 @@
       <workItem from="1698311328968" duration="467000" />
       <workItem from="1698317802292" duration="752000" />
       <workItem from="1698318584757" duration="3922000" />
-      <workItem from="1698323419981" duration="2057000" />
+      <workItem from="1698323419981" duration="2340000" />
     </task>
     <servers />
   </component>
