@@ -24,6 +24,11 @@
       "Id": 5,
       "Username": "fvfvv",
       "Password": "vvvv"
+    },
+    {
+      "Id": 6,
+      "Username": "Matejko",
+      "Password": "Matko123"
     }
   ],
   "Posts": [
@@ -36,6 +41,16 @@
       },
       "title": "Test",
       "description": "funguje to?"
+    },
+    {
+      "id": 2,
+      "owner": {
+        "Id": 6,
+        "Username": "Matejko",
+        "Password": "Matko123"
+      },
+      "title": "Prosim",
+      "description": "Nech to ide"
     }
   ]
 }

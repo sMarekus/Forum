@@ -12,7 +12,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3701879-35b1-4bfe-9ca8-57625e3382e0" name="Changes" comment="" />
+    <list default="true" id="a3701879-35b1-4bfe-9ca8-57625e3382e0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BlazorWASM/Pages/CreatePost.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlazorWASM/Pages/CreatePost.razor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Forum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Forum/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorWASM/Pages/PostDetails.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWASM/Pages/PostDetails.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorWASM/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWASM/Shared/NavMenu.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpClients/ClientInterfaces/IPostService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClients/ClientInterfaces/IPostService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpClients/ClientInterfaces/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClients/ClientInterfaces/IUserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HttpClients/Implementations/UserHttpClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClients/Implementations/UserHttpClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/data.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,9 +71,9 @@
   },
   "keyToStringList": {
     "rider.external.source.directories": [
-      "C:\\Users\\marek\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
-      "C:\\Users\\marek\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
-      "C:\\Users\\marek\\AppData\\Local\\Symbols\\src"
+      "C:\\Users\\mkuku\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
+      "C:\\Users\\mkuku\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
+      "C:\\Users\\mkuku\\AppData\\Local\\Symbols\\src"
     ]
   }
 }]]></component>
@@ -183,6 +193,7 @@
       <workItem from="1698317802292" duration="752000" />
       <workItem from="1698318584757" duration="3922000" />
       <workItem from="1698323419981" duration="2340000" />
+      <workItem from="1698405333470" duration="4951000" />
     </task>
     <servers />
   </component>
