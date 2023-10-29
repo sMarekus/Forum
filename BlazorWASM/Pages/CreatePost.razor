@@ -2,9 +2,12 @@
 @using Domain.Models
 @using HttpClients.ClientInterfaces
 @using Domain.DTOs
+@using BlazorWASM.Services
 @inject IPostService postService
 @inject IUserService userService
+@inject IAuthService authService
 @inject NavigationManager navMgr
+@attribute [Authorize]
 
  <div class="card">
      @if (users == null)

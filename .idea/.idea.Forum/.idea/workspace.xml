@@ -13,14 +13,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3701879-35b1-4bfe-9ca8-57625e3382e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/Pages/CreatePost.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlazorWASM/Pages/CreatePost.razor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlazorWASM/Auth/CustomAuthProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlazorWASM/Pages/Login.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlazorWASM/Pages/LoginButtons.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlazorWASM/Services/AuthService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlazorWASM/Services/Http/JwtAuthService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlazorWASM/Services/IAuthService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlazorWASM/wwwroot/img/Login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlazorWASM/wwwroot/img/Logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebAPI/Controllers/AuthController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebAPI/Controllers/TestController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebAPI/Services/IWAuthService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebAPI/Services/WAuthService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Forum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Forum/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorWASM/Pages/PostDetails.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWASM/Pages/PostDetails.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorWASM/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWASM/Shared/NavMenu.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HttpClients/ClientInterfaces/IPostService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClients/ClientInterfaces/IPostService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HttpClients/ClientInterfaces/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClients/ClientInterfaces/IUserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HttpClients/Implementations/UserHttpClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HttpClients/Implementations/UserHttpClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorWASM/App.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWASM/App.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorWASM/BlazorWASM.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWASM/BlazorWASM.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorWASM/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWASM/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorWASM/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWASM/Shared/MainLayout.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebAPI/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/data.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +49,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="Toolset" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -71,9 +81,9 @@
   },
   "keyToStringList": {
     "rider.external.source.directories": [
-      "C:\\Users\\mkuku\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
-      "C:\\Users\\mkuku\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
-      "C:\\Users\\mkuku\\AppData\\Local\\Symbols\\src"
+      "C:\\Users\\marek\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
+      "C:\\Users\\marek\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
+      "C:\\Users\\marek\\AppData\\Local\\Symbols\\src"
     ]
   }
 }]]></component>
@@ -194,6 +204,7 @@
       <workItem from="1698318584757" duration="3922000" />
       <workItem from="1698323419981" duration="2340000" />
       <workItem from="1698405333470" duration="4951000" />
+      <workItem from="1698597004118" duration="6639000" />
     </task>
     <servers />
   </component>

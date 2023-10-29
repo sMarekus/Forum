@@ -29,6 +29,11 @@
       "Id": 6,
       "Username": "Matejko",
       "Password": "Matko123"
+    },
+    {
+      "Id": 7,
+      "Username": "fesfes",
+      "Password": "fessefes"
     }
   ],
   "Posts": [
