@@ -3,6 +3,7 @@
 @using HttpClients.ClientInterfaces
 @using Domain.DTOs
 @using BlazorWASM.Services
+@using System.Security.Claims
 @inject IPostService postService
 @inject IUserService userService
 @inject IAuthService authService
@@ -28,16 +29,6 @@
          <div class="form-group field">
              <label>Description:</label>
              <input type="text" @bind="postDescription"/>
-         </div>
-         <div class="form-group field">
-             <label>Author:</label>
-             <select @bind="userId">
-                 <option>Choose</option>
-                 @foreach (User user in users)
-                 {
-                     <option value="@user.Id">@user.Username</option>
-                 }
-             </select>
          </div>
          <div class="button-row">
              @if (!string.IsNullOrEmpty(msg))
@@ -76,11 +67,6 @@
     {
         msg = "";
         
-        if (userId == null)
-        {
-            msg = "You must select an user!";
-            return;
-        }
         if (string.IsNullOrEmpty(postTitle))
         {
             msg = "Title cannot be empty!";
@@ -95,7 +81,13 @@
 
         try
         {
-            PostCreationDto dto = new((int)userId, postTitle,postDescription);
+            var principal = await authService.GetAuthAsync();
+            users = await userService.GetUser();
+            string? username = principal.FindFirst(ClaimTypes.Name)?.Value;
+
+            var user = await userService.GetUserByUsername(username);
+            
+            PostCreationDto dto = new(user.Id, postTitle,postDescription);
             await postService.CreateAsync(dto);
             navMgr.NavigateTo("/");
         }

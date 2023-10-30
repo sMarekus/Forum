@@ -62,4 +62,9 @@ public class UserLogic : IUserLogic
     {
         return userDao.GetAsync(searchParameters);
     }
+
+    public Task<User> GetByUsernameAsync(string username)
+    {
+        return userDao.GetByUsernameAsync(username);
+    }
 }

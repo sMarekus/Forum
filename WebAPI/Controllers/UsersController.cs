@@ -47,4 +47,19 @@ public class UsersController : ControllerBase
             return StatusCode(500, e.Message);
         }
     }
+    
+    [HttpGet("users")]
+    public async Task<ActionResult<User>> GetByUsernameAsync([FromQuery] string username)
+    {
+        try
+        {
+            User user = await userLogic.GetByUsernameAsync(username);
+            return Ok(user);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            return StatusCode(500, e.Message);
+        }
+    }
 }

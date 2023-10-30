@@ -8,4 +8,5 @@ public interface IUserService
     Task<User> Create(UserCreationDto dto);
 
     Task<IEnumerable<User>> GetUser(string? usernameContains = null);
+    Task<User> GetUserByUsername(string username);
 }
