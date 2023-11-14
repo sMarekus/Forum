@@ -20,5 +20,9 @@ public class ForumContext : DbContext
         modelBuilder.Entity<User>().HasKey(user => user.Id);
         modelBuilder.Entity<Post>().Property(p => p.Title).IsRequired();
         modelBuilder.Entity<Post>().Property(p => p.Description).IsRequired();
+        modelBuilder.Entity<Post>()
+            .HasOne(p => p.Owner)
+            .WithMany()
+            .HasForeignKey(p => p.OwnerId);
     }
 }

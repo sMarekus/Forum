@@ -21,20 +21,27 @@ public class PostEfcDao : IPostDao
         return newPost.Entity;
     }
 
-    public Task<Post?> GetByIdAsync(int id)
+    public async Task<Post?> GetByIdAsync(int id)
     {
-        throw new NotImplementedException();
+        Post? found = await context.Posts.Include(post => post.Owner).SingleOrDefaultAsync(post => post.Id == id);
+        return found;
+    }
+
+    public async Task UpdateAsync(Post post)
+    {
+        context.Posts.Update(post);
+        await context.SaveChangesAsync();
     }
 
     public async Task<IEnumerable<Post>> GetAsync(SearchPostParametersDto searchParameters)
     {
-        IQueryable<Post> query = context.Posts.Include(todo => todo.Owner).AsQueryable();
+        IQueryable<Post> query = context.Posts.Include(post => post.Owner).AsQueryable();
     
         if (!string.IsNullOrEmpty(searchParameters.Username))
         {
             // we know username is unique, so just fetch the first
-            query = query.Where(todo =>
-                todo.Owner.Username.ToLower().Equals(searchParameters.Username.ToLower()));
+            query = query.Where(post =>
+                post.Owner.Username.ToLower().Equals(searchParameters.Username.ToLower()));
         }
     
         if (searchParameters.UserId != null)
