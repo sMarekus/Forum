@@ -13,11 +13,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3701879-35b1-4bfe-9ca8-57625e3382e0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/EfcDataAccess/Forum.db-shm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EfcDataAccess/Forum.db-wal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Forum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Forum/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/Models/Post.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Models/Post.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EfcDataAccess/DAOs/PostEfcDao.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EfcDataAccess/DAOs/PostEfcDao.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EfcDataAccess/Forum.db-shm" beforeDir="false" afterPath="$PROJECT_DIR$/EfcDataAccess/Forum.db-shm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EfcDataAccess/Forum.db-wal" beforeDir="false" afterPath="$PROJECT_DIR$/EfcDataAccess/Forum.db-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/Services/WAuthService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Services/WAuthService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EfcDataAccess/Forum.db" beforeDir="false" afterPath="$PROJECT_DIR$/EfcDataAccess/Forum.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EfcDataAccess/ForumContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EfcDataAccess/ForumContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EfcDataAccess/Migrations/20231109122937_InitialCreate.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EfcDataAccess/Migrations/20231109122937_InitialCreate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EfcDataAccess/Migrations/20231117090544_InitialCreate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EfcDataAccess/Migrations/20231110092954_AddPostDetails.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EfcDataAccess/Migrations/20231117090544_InitialCreate.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EfcDataAccess/Migrations/20231110092954_AddPostDetails.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,6 +208,7 @@
       <workItem from="1699602076734" duration="6363000" />
       <workItem from="1699897564763" duration="356000" />
       <workItem from="1699951836538" duration="2284000" />
+      <workItem from="1700208219233" duration="3475000" />
     </task>
     <servers />
   </component>

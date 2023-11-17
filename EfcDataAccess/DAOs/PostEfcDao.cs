@@ -51,8 +51,8 @@ public class PostEfcDao : IPostDao
     
         if (!string.IsNullOrEmpty(searchParameters.TitleContains))
         {
-            query = query.Where(t =>
-                t.Title.ToLower().Contains(searchParameters.TitleContains.ToLower()));
+            query = query.Where(p =>
+                p.Title.ToLower().Contains(searchParameters.TitleContains.ToLower()));
         }
 
         List<Post> result = await query.ToListAsync();
