@@ -13,10 +13,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3701879-35b1-4bfe-9ca8-57625e3382e0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Forum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Forum/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlazorWASM/Pages/Register.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWASM/Pages/Register.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EfcDataAccess/Forum.db-wal" beforeDir="false" afterPath="$PROJECT_DIR$/EfcDataAccess/Forum.db-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebAPI/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAPI/Controllers/AuthController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorWASM/Pages/ViewPosts.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWASM/Pages/ViewPosts.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorWASM/Pages/ViewPosts.razor.css" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorWASM/Pages/ViewPosts.razor.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

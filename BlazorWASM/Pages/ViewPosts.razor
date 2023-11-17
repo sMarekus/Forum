@@ -6,10 +6,6 @@
 @inject IPostService postService
 @inject NavigationManager navMgr
 
-<h3>ViewPosts</h3>
-
-<h3 style="text-align: center">Overview of all posts</h3>
-
 @if (!string.IsNullOrEmpty(msg))
 {
     <div>
@@ -31,10 +27,10 @@ else
         @foreach (Post post in posts)
         {
             <div class="post-card">
-                <h1>
+                <h1 class="post-title">
                     <a href="/posts/@post.Id">@post.Title</a>
                 </h1>
-                <label>@post.Owner.Username</label>
+                <label class="post-author">Created by @post.Owner.Username</label>
             </div>
         }
     </div>
