@@ -1,7 +1,10 @@
 ﻿@page "/Register"
 @using Domain.DTOs
 @using HttpClients.ClientInterfaces
+@using BlazorWASM.Services
 @inject IUserService userService;
+@inject IAuthService authService;
+@inject NavigationManager navigationManager;
 
 <div class="card">
     <h3>Register</h3>
@@ -34,10 +37,10 @@
         try
         {
             await userService.Create(new UserCreationDto(username, password));
+            await authService.LoginAsync(username, password);
+            navigationManager.NavigateTo("/");
             username = "";
             password = "";
-            resultMsg = "Successful registration";
-            color = "green";
         }
         catch (Exception e)
         {
