@@ -31,7 +31,7 @@ public class PostHttpClient : IPostService
         string uri = "/posts";
         if (!string.IsNullOrEmpty(titleContains))
         {
-            uri += $"?tilte={titleContains}";
+            uri += $"?title={titleContains}";
         }
 
         HttpResponseMessage response = await client.GetAsync(uri);

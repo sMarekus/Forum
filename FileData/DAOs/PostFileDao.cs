@@ -18,11 +18,11 @@ public class PostFileDao : IPostDao
         int id = 1;
         if (context.Posts.Any())
         {
-            id = context.Posts.Max(p => p.id);
+            id = context.Posts.Max(p => p.Id);
             id++;
         }
 
-        post.id = id;
+        post.Id = id;
         
         context.Posts.Add(post);
         context.SaveChanges();
@@ -37,17 +37,17 @@ public class PostFileDao : IPostDao
         if (!string.IsNullOrEmpty(searchParams.Username))
         {
             result = context.Posts.Where(post =>
-                post.owner.Username.Equals(searchParams.Username, StringComparison.OrdinalIgnoreCase));
+                post.Owner.Username.Equals(searchParams.Username, StringComparison.OrdinalIgnoreCase));
         }
 
         if (searchParams.UserId != null)
         {
-            result = result.Where(t => t.owner.Id == searchParams.UserId);
+            result = result.Where(t => t.Owner.Id == searchParams.UserId);
         }
 
         if (!string.IsNullOrEmpty(searchParams.TitleContains))
         {
-            result = result.Where(t => t.title.Contains(searchParams.TitleContains, StringComparison.OrdinalIgnoreCase));
+            result = result.Where(t => t.Title.Contains(searchParams.TitleContains, StringComparison.OrdinalIgnoreCase));
         }
 
         return Task.FromResult(result);
@@ -55,7 +55,7 @@ public class PostFileDao : IPostDao
     
     public Task<Post?> GetByIdAsync(int id)
     {
-        Post? existing = context.Posts.FirstOrDefault(u => u.id == id);
+        Post? existing = context.Posts.FirstOrDefault(u => u.Id == id);
         return Task.FromResult(existing);
     }
 }

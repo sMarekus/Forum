@@ -2,15 +2,18 @@
 
 public class Post
 {
-    public int id { get; set; }
-    public User owner { get; }
-    public string title { get; }
-    public string description { get; }
+    public int Id { get; set; }
+    public User Owner { get; set; }
+    public int OwnerId { get; set; }
+    public string Title { get; private set; }
+    public string Description { get; private set; }
 
-    public Post(User owner, string title, string description)
+    public Post(int ownerId, string title, string description)
     {
-        this.owner = owner;
-        this.title = title;
-        this.description = description;
+        OwnerId = ownerId;
+        Title = title;
+        Description = description;
     }
+    
+    private Post(){}
 }

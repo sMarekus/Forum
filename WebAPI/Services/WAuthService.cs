@@ -19,15 +19,14 @@ public class WAuthService : IWAuthService
         SearchUserParametersDto parameters = new(username);
         IEnumerable<User> users = await userLogic.GetAsync(parameters);
         User? user = users.FirstOrDefault(u => u.Username.Equals(username, StringComparison.OrdinalIgnoreCase));
-        if (user != null)
+        if (user != null && user.Password == password)
         {
             return user;
         }
         else
         {
-            throw new Exception("List of users empty.");
+            throw new Exception("Invalid username or password.");
         }
-        
     }
     
     public async Task<User> ValidateUser(User user)
