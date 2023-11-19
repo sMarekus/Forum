@@ -1,0 +1,79 @@
+﻿/* site.css */
+
+.homepage {
+    text-align: center;
+    padding: 2rem;
+}
+
+.homepage .hero {
+    margin-bottom: 2rem;
+}
+
+.homepage .hero h1 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.homepage .hero p {
+    color: #555;
+    font-size: 1.2rem;
+}
+
+.features {
+    margin-bottom: 2rem;
+}
+
+.features h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature {
+    max-width: 300px;
+    margin-bottom: 1rem;
+}
+
+.feature h3 {
+    color: #007bff;
+}
+
+.feature p {
+    color: #555;
+}
+
+.call-to-action {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.call-to-action h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.call-to-action p {
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}

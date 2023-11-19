@@ -1,12 +1,12 @@
 ﻿/* Styles.css */
 
 .card {
-    max-width: 600px;
+    max-width: 400px;
     margin: 2rem auto;
     padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border-radius: 8px;
     background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .card h3 {
@@ -31,6 +31,7 @@
     border: 1px solid #ddd;
     border-radius: 4px;
     box-sizing: border-box;
+    margin-bottom: 1rem;
 }
 
 .form-group input:focus {
@@ -57,7 +58,7 @@
     background-color: #0056b3;
 }
 
-.error-message {
-    color: red;
-    margin-bottom: 1rem;
+.acceptbtn:disabled {
+    background-color: #cccccc;
+    cursor: default;
 }

@@ -3,19 +3,17 @@
 @inject IAuthService authService
 @inject NavigationManager navMgr
 
-<h3>Login</h3>
-
 <AuthorizeView>
     <NotAuthorized>
         <div class="card">
             <h3>Please login</h3>
             <div class="field">
                 <label>User name:</label>
-                <input type="text" @bind="userName"/>
+                <input type="text" @bind="userName" class="form-control"/>
             </div>
             <div class="field">
-                <label style="text-align: center">Password:</label>
-                <input type="password" @bind="password"/>
+                <label>Password:</label>
+                <input type="password" @bind="password" class="form-control"/>
             </div>
             <div class="field">
                 <a href="/Register">New user</a>

@@ -5,10 +5,14 @@
 
 <AuthorizeView>
     <Authorized>
-        <img class="icon" src="img/Logout.png" @onclick="Logout"/>
+        <div class="log-btn log-out" src="img/Logout.png" @onclick="Logout">
+            Log out
+        </div>
     </Authorized>
     <NotAuthorized>
-        <img class="icon" src="img/Login.png" @onclick="Login"/>
+        <div class="log-btn" src="img/Login.png" @onclick="Login">
+            Log in
+        </div>
     </NotAuthorized>
 </AuthorizeView>
 

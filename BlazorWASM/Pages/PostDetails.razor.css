@@ -1,0 +1,36 @@
+﻿/* Styles.css */
+
+.post-details {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.post-details h1 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.post-details label {
+    display: block;
+    margin-bottom: 1rem;
+    color: #666;
+    font-weight: bold;
+}
+
+.post-details p {
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
