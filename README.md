@@ -1,4 +1,4 @@
-# Forum Project
+# Forum
 
 ## Overview
 The Forum project is a web-based application designed to provide a platform for user interactions through posts and discussions. It is built using a combination of technologies including Blazor WebAssembly, Entity Framework Core (EFC), and ASP.NET Core Web API.
